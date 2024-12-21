@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 21 20:53:08 NPT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>152 seconds (152960 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcase.TC_004_RegisterUserWithAlreadyexistemail.test()'><b>test</b><br>Test class: testcase.TC_004_RegisterUserWithAlreadyexistemail</td>
+<td></td>
+<td>3</td>
+<td>testcase.TC_004_RegisterUserWithAlreadyexistemail@289710d9</td></tr>
+<tr>
+<td title='testcase.TC_014_ViewAndCartBrandProductsTest.test()'><b>test</b><br>Test class: testcase.TC_014_ViewAndCartBrandProductsTest</td>
+<td></td>
+<td>5</td>
+<td>testcase.TC_014_ViewAndCartBrandProductsTest@3568f9d2</td></tr>
+<tr>
+<td title='testcase.TC_015_AddToCartFromRecommendedItemsTest.test()'><b>test</b><br>Test class: testcase.TC_015_AddToCartFromRecommendedItemsTest</td>
+<td></td>
+<td>2</td>
+<td>testcase.TC_015_AddToCartFromRecommendedItemsTest@71c27ee8</td></tr>
+<tr>
+<td title='testcase.TC_013_CategoryProductsTest.test()'><b>test</b><br>Test class: testcase.TC_013_CategoryProductsTest</td>
+<td></td>
+<td>6</td>
+<td>testcase.TC_013_CategoryProductsTest@77825085</td></tr>
+<tr>
+<td title='testcase.TC_016_VerifySubscriptionInHomepageAndCartTest.verifySubscriptionOnCartPage()'><b>verifySubscriptionOnCartPage</b><br>Test class: testcase.TC_016_VerifySubscriptionInHomepageAndCartTest</td>
+<td></td>
+<td>2</td>
+<td>testcase.TC_016_VerifySubscriptionInHomepageAndCartTest@3e7dd664</td></tr>
+<tr>
+<td title='testcase.TC_016_VerifySubscriptionInHomepageAndCartTest.verifySubscriptionOnHomePage()'><b>verifySubscriptionOnHomePage</b><br>Test class: testcase.TC_016_VerifySubscriptionInHomepageAndCartTest</td>
+<td></td>
+<td>0</td>
+<td>testcase.TC_016_VerifySubscriptionInHomepageAndCartTest@3e7dd664</td></tr>
+<tr>
+<td title='testcase.TC_012_AddProductReviewTest.test()'><b>test</b><br>Test class: testcase.TC_012_AddProductReviewTest</td>
+<td></td>
+<td>5</td>
+<td>testcase.TC_012_AddProductReviewTest@5143c662</td></tr>
+<tr>
+<td title='testcase.TC_010_VerifyProductQuantityInCartTest.test()'><b>test</b><br>Test class: testcase.TC_010_VerifyProductQuantityInCartTest</td>
+<td></td>
+<td>6</td>
+<td>testcase.TC_010_VerifyProductQuantityInCartTest@4c51cf28</td></tr>
+<tr>
+<td title='testcase.TC_008_AddProductstoCart.test()'><b>test</b><br>Test class: testcase.TC_008_AddProductstoCart</td>
+<td></td>
+<td>5</td>
+<td>testcase.TC_008_AddProductstoCart@403f0a22</td></tr>
+<tr>
+<td title='testcase.TC_011_RemoveProductTest.test()'><b>test</b><br>Test class: testcase.TC_011_RemoveProductTest</td>
+<td></td>
+<td>6</td>
+<td>testcase.TC_011_RemoveProductTest@6995bf68</td></tr>
+<tr>
+<td title='testcase.TC_009_CheckoutAndPlaceanOrder.test()'><b>test</b><br>Test class: testcase.TC_009_CheckoutAndPlaceanOrder</td>
+<td></td>
+<td>18</td>
+<td>testcase.TC_009_CheckoutAndPlaceanOrder@503ecb24</td></tr>
+<tr>
+<td title='testcase.TC_006_VerifyAllProductsandproductdetailpage.test()'><b>test</b><br>Test class: testcase.TC_006_VerifyAllProductsandproductdetailpage</td>
+<td></td>
+<td>1</td>
+<td>testcase.TC_006_VerifyAllProductsandproductdetailpage@5a18cd76</td></tr>
+<tr>
+<td title='testcase.TC_002_LoginPage.logintest()'><b>logintest</b><br>Test class: testcase.TC_002_LoginPage</td>
+<td></td>
+<td>8</td>
+<td>testcase.TC_002_LoginPage@6a55299e</td></tr>
+<tr>
+<td title='testcase.TC_007_SearchProduct.logut()'><b>logut</b><br>Test class: testcase.TC_007_SearchProduct</td>
+<td></td>
+<td>5</td>
+<td>testcase.TC_007_SearchProduct@3da30852</td></tr>
+</table><p>
+</body>
+</html>
