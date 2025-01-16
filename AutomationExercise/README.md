@@ -50,7 +50,7 @@ The project includes automated test cases for the following scenarios:
 1. Validating user login functionality
 2. Testing form submissions
 3. Verifying navigation across different web pages
-4. Performing CRUD operations (if applicable)
+4. Performing CRUD operations 
 5. Ensuring error messages display correctly for invalid inputs
 
 ## Dependencies
